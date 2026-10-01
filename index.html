@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Klatre Matematik – en dansk Multi 4-prototype." />
+    <title>Klatre Matematik</title>
+    <script type="module" crossorigin src="./assets/index-BhbJpTmP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DVs8uve8.css">
+  </head>
+  <body>
+    <main id="app" aria-label="Klatre Matematik">
+      <div id="top-menu-root" class="klatre-ui" aria-label="Hovedmenu"></div>
+      <div id="view-stack" aria-live="polite">
+        <section id="game-page" class="km-page km-game-page" aria-label="Spil" hidden>
+          <div id="game-root"></div>
+          <div id="mini-game-root" class="klatre-ui" hidden></div>
+        </section>
+        <section id="map-page" class="km-page" aria-label="Verdenskort og progression" hidden>
+          <aside id="map-root" class="klatre-ui"></aside>
+        </section>
+        <section id="teacher-page" class="km-page" aria-label="Lærer-overblik" hidden>
+          <aside id="teacher-root" class="klatre-ui"></aside>
+        </section>
+        <section id="shop-page" class="km-page" aria-label="Stick man-butik" hidden>
+          <aside id="shop-root" class="klatre-ui"></aside>
+        </section>
+        <section id="profile-page" class="km-page" aria-label="Elevprofiler">
+          <aside id="profile-root" class="klatre-ui"></aside>
+        </section>
+        <section id="notebook-page" class="km-page" aria-label="Kladdehæfte" hidden>
+          <aside id="notebook-root" class="klatre-ui"></aside>
+        </section>
+        <section id="task-page" class="km-page km-task-page" aria-label="Matematik-kamp" hidden>
+          <aside id="task-notebook-root" class="klatre-ui" aria-label="Kladdehæfte til opgaven"></aside>
+          <section id="task-root" class="klatre-ui"></section>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
